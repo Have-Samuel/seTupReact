@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Dosis:wght@300;400&family=Inter:wght@600&family=Lato:wght@700&family=Merriweather:ital@1&family=Montserrat:wght@700&family=Oswald&family=Poppins:wght@200;400;600&family=Quicksand:wght@700&family=Roboto+Condensed:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
+
+.calculator {
+  margin: 6rem auto;
+  width: 30%;
+  height: 20rem;
+}
+
+.display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 0.35rem;
+  color: #fff;
+  background-color: #a7a8b3;
+  font-size: 1rem;
+  height: 3rem;
+}
+
+.keyboard {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.keyboard-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: stretch;
+  flex: 1;
+}
+
+.keyboardBtn {
+  background-color: #f0d3d3;
+  border: 0.1px solid #b6b7c0;
+  font-size: 1rem;
+}
+
+#null {
+  grid-column: span 2;
+}
+
+.keyboardBtn:last-child {
+  background-color: #e46e0f;
+}
