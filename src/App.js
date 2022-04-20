@@ -3,7 +3,7 @@ import './App.css';
 
 import Calculator from './components/Calculator';
 
-class App extends React.PureCalculator {
+class App extends React.PureComponent {
   render() {
     return (
       <div className="App">
