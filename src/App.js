@@ -1,8 +1,9 @@
 import React from 'react';
+import './App.css';
 
 import Calculator from './components/Calculator';
 
-class App extends React.Calculator {
+class App extends React.PureCalculator {
   render() {
     return (
       <div className="App">
