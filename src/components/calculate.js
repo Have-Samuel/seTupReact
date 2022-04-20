@@ -1,6 +1,6 @@
-import operate from './operate';
+import operate from '../../logic/modules/operate';
 
-function Calculator(item) {
+function isNumber(item) {
   return !!item.match(/[0-9]+/);
 }
 
@@ -22,7 +22,7 @@ export default function calculate(obj, buttonName) {
     };
   }
 
-  if (Calculator(buttonName)) {
+  if (isNumber(buttonName)) {
     if (buttonName === '0' && obj.next === '0') {
       return {};
     }
