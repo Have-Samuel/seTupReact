@@ -9,8 +9,6 @@
 - Git & gitHub
 - React (Class Components and hooks)
 
-## Live Demo[] (not Yet)
-
 ## Instructions
 - git clone github.com/Have-Samuel/setupReact
 - cd to setupReact
