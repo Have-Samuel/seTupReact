@@ -12,7 +12,7 @@ export default class Calculator extends React.PureComponent {
     };
     this.handleClick = this.handleClick.bind(this);
     this.buttons = [
-      'Ac',
+      'AC',
       '+/-',
       '%',
       '÷',
@@ -35,7 +35,7 @@ export default class Calculator extends React.PureComponent {
   }
 
   handleDisplayState(beforeCalObj, afterCalObj) {
-    // handle display UI state
+    // Display of UI state
     if (!afterCalObj.operation && !afterCalObj.next && afterCalObj.total) {
       this.setState({ display: afterCalObj.total });
     } else if (beforeCalObj.operation && afterCalObj.next) {
