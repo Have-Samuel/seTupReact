@@ -10,6 +10,12 @@
 - React
 
 ## Live Demo[] (not Yet)
+
+## Instructions
+- git clone github.com/Have-Samuel/setupReact
+- cd to setupReact
+- run npm install
+
 ## Setup
 
 In the project directory, you can run:
