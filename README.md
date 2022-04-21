@@ -7,7 +7,7 @@
 - HTML & CSS
 - Javascript
 - Git & gitHub
-- React
+- React (Class Components and hooks)
 
 ## Live Demo[] (not Yet)
 
