@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/no-typos */
-import React from 'React';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-export default class Buttons extends React.PureComponent {
+export default class Button extends React.PureComponent {
   render() {
     const { name, handleClick } = this.props;
     return (
@@ -19,7 +19,7 @@ export default class Buttons extends React.PureComponent {
   }
 }
 
-Buttons.PropTypes = {
+Button.propTypes = {
   name: PropTypes.string.isRequired,
   handleClick: PropTypes.func.isRequired,
 };
