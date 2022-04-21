@@ -1,9 +1,9 @@
 /* eslint-disable import/no-duplicates */
 import React from 'react';
 import './calculator.css';
-import './button';
-import calculate from './logic/calculate';
-import Buttons from './button';
+import './buttons/button';
+import calculate from './calculator/logic/calculate';
+import Buttons from './buttons/button';
 
 export default class Calculator extends React.PureComponent {
   constructor(props) {
