@@ -7,9 +7,7 @@
 - HTML & CSS
 - Javascript
 - Git & gitHub
-- React
-
-## Live Demo[] (not Yet)
+- React (Class Components and hooks)
 
 ## Instructions
 - git clone github.com/Have-Samuel/setupReact

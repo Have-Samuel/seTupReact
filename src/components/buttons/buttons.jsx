@@ -1,21 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default class Button extends React.PureComponent {
-  render() {
-    const { name, handleClick } = this.props;
-    return (
-      <button
-        id={name === '0' ? 'zero' : ''}
-        onClick={handleClick}
-        type="button"
-        className="keyboardBtn"
-      >
-        {name}
-      </button>
-    );
-  }
-}
+const Button = ({ name, handleClick }) => (
+  <button
+    id={name === '0' ? 'zero' : ''}
+    onClick={handleClick}
+    type="button"
+    className="keyboardBtn"
+  >
+    {name}
+  </button>
+);
+
+export default Button;
 
 Button.propTypes = {
   name: PropTypes.string.isRequired,
