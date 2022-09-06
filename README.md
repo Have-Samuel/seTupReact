@@ -88,7 +88,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 - GitHub: [Have-Samuel](https://github.com/Have-Samuel)
 - Twitter: [@samhave1](https://twitter.com/@samhave1)
-- LinkedIn: [Have Samuel Kabreebe](https://linkedin.com/in/Have Samuel Kabreebe)
+- LinkedIn: [Have Samuel Kabreebe](https://linkedin.com/Have Samuel Kabreebe)
 
 ## 🤝 Contributing
 
